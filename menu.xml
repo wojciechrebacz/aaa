@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<menu>
+	<pozycja>
+		<nazwa>Strona Główna</nazwa>
+		<link>index.html</link>
+		<zdarzenie>onclick = "WczytajTrescStrony(0); return false"</zdarzenie>
+	</pozycja>
+	
+	<pozycja>
+		<nazwa>Aktualna oferta</nazwa>
+		<link>oferta.html</link>
+		<zdarzenie>#</zdarzenie>
+	</pozycja>
+	
+	<pozycja>
+		<nazwa>Formularz</nazwa>
+		<link>formularz.html</link>
+		<zdarzenie>#</zdarzenie>
+	</pozycja>
+	
+	<pozycja>
+		<nazwa>Współpraca</nazwa>
+		<link>#</link>
+		<zdarzenie>onclick = "WczytajTrescStrony(1); return false"</zdarzenie>
+	</pozycja>
+	
+	<pozycja>
+		<nazwa>O firmie</nazwa>
+		<link>#</link>
+		<zdarzenie>onclick = "WczytajTrescStrony(2); return false"</zdarzenie>
+	</pozycja>
+	
+	<pozycja>
+		<nazwa>Kontakt</nazwa>
+		<link>#</link>
+		<zdarzenie>onclick = "WczytajTrescStrony(3); return false"</zdarzenie>
+	</pozycja>
+	
+</menu>
